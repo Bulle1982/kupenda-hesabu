@@ -42,7 +42,7 @@ button.addEventListener("click", function() {
 This makes it a local variable for that function.
 
 2. The runGame() function is called within this event handler function and is passed the gameType variable as an argument:
-                                runGame(gameType);
+runGame(gameType);
 The runGame() function receives the gameType argument and uses it. 
 Since the gameType variable is passed as an argument, it's available within the runGame() function. 
 This is possible because of the closure property in JavaScript, 
